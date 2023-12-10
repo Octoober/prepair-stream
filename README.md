@@ -14,7 +14,7 @@ sudo bash make-playlist.sh ./input/input-playlist.txt
 
 Combines `make-input-file.sh` with `make-playlist.sh`.
 
-```
+```console
 sudo bash prepair-stream.sh ./input
 ```
 
