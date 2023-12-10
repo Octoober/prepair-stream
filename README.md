@@ -15,10 +15,10 @@ sudo bash make-playlist.sh ./input/input-playlist.txt
 Combines `make-input-file.sh` with `make-playlist.sh`.
 
 ```console
-sudo bash prepair-stream.sh ./input
+sudo bash prepare-stream.sh ./input
 ```
 
-Globally installs the `make-playlist` and `make-input-file` commands.
+Globally installs the `make-playlist`. `make-input-file` and `prepare-stream` commands.
 
 ```console
 sudo bash install.sh

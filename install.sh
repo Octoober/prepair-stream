@@ -9,4 +9,4 @@ install_script() {
 
 install_script "make-playlist"
 install_script "make-input-file"
-install_script "prepair-stream"
+install_script "prepare-stream"
