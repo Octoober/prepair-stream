@@ -1,9 +1,12 @@
 #!/bin/bash
 
-cp ./make-playlist.sh /usr/local/bin/make-playlist
-chmod +x /usr/local/bin/make-playlist
-echo "make-playlist installed successylly."
+install_script() {
+  local script_name="$1"
+  cp "./$script_name.sh" "/usr/local/bin/$script_name"
+  chmod +x "/usr/local/bin/$script_name"
+  echo "$script_name installed successfully."
+}
 
-cp ./make-input-file.sh /usr/local/bin/make-input-file
-chmod +x /usr/local/bin/make-input-file
-echo "make-input-file installed successylly."
+install_script "make-playlist"
+install_script "make-input-file"
+install_script "prepair-stream"

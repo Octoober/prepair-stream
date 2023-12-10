@@ -8,6 +8,5 @@ fi
 INPUT_PATH="$1"
 INPUT_FILE="$INPUT_PATH/input-playlist.txt"
 
-bash make-input-file.sh "$INPUT_PATH" || exit 1
-
-bash make-playlist.sh "$INPUT_FILE" || exit 1
+make-input-file "$INPUT_PATH" || exit 1
+make-playlist "$INPUT_FILE" || exit 1
